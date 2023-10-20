@@ -1,0 +1,22 @@
+Type: Package
+Package: oedulis
+Title: Ostrea edulis monitoring tools
+Version: 1.0.0
+Author: person('Santiago E. A.','Pineda-Metz',email='santiago.pineda.metz@gmail.com',role=c('aut','cre),comment=c(ORCID='0000-0001-7780-6449'))
+Maintainer: Santiago E. A. Pineda-Metz <santiago.pineda.metz@gmail.com>
+Description: The package includes transformation factors for converting
+    wet weights of the European flat oyster (Ostrea edulis) into dry
+    weights. The package also includes the updated version of the models
+    developed by Pineda-Metz et al. (2023;
+    http://dx.doi.org/10.1002/aqc.3912).
+License: GPL (>= 3)
+Depends: 
+    R (>= 2.10)
+Imports: 
+    randomForest,stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
