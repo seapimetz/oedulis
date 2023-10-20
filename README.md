@@ -1,5 +1,10 @@
 # oedulis: Ostrea edulis monitoring tools
 
+Before anything: How to install in R?
+
+# install.packages("devtools")
+devtools::install_github("seapimetz/oedulis")
+
 The package was developed to help estimation and transformation of weight data for European flat oyster (Ostrea edulis) restoration and conservation efforts. The base publication used to develop this package was Pineda-Metz et al. (2023; http://dx.doi.org/10.1002/aqc.3912). These authors calculated tranformation factors to calculate total, shell and soft tissue dry weight from wet weights (or vice versa). Additionally, the mentioned publication developed a set of models for estimating total, shell and soft tissue wet weight of O. edulis. The package includes (in its current version) only two functions:
     1) 'ww_dt': Used for transforming O.edulis wet weights to dry weights.
     2) 'o_edulis_w': Used for estimating total, shell and soft tissue wet or dry weight of O.edulis. While the models used for estimating total and shell weight are an updated verion of the original models of Pineda-Metz et al. (2023), the one for estimating soft tissue wet weight remains in its original iteration.
