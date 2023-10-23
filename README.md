@@ -2,8 +2,15 @@
 
 Before anything: How to install in R?
 
-# install.packages("devtools")
+If you don't have the devtools package installed, then:
+
+install.packages("devtools")
+
+Once that one's installed (or if you already had it installed), run this line:
+
 devtools::install_github("seapimetz/oedulis")
+
+That's it, well done!
 
 The package was developed to help estimation and transformation of weight data for European flat oyster (Ostrea edulis) restoration and conservation efforts. The base publication used to develop this package was Pineda-Metz et al. (2023; http://dx.doi.org/10.1002/aqc.3912). These authors calculated tranformation factors to calculate total, shell and soft tissue dry weight from wet weights (or vice versa). Additionally, the mentioned publication developed a set of models for estimating total, shell and soft tissue wet weight of O. edulis. The package includes (in its current version) only two functions:
     1) 'ww_dt': Used for transforming O.edulis wet weights to dry weights.
