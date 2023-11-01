@@ -40,10 +40,12 @@ I understand that there's a big discussion on the deffinitions of length, width,
 For 'ww_dw':
 - Load your wet weight data as a vector.
 - E.g.: If you want to transform your total wet weight to dry weight:
-      load(oyster) #Example data set with oyster biometric data
-      df=oyster$Total_Wet_Weight #Weight data in vector form
-      transformed_data=ww_dw(x=df, weight='total') #The command 'weight' helps you to choose in between the total, shell and soft tissue wet weight
-      transformed_data
+
+  load(oyster) #Example data set with oyster biometric data
+  df=oyster$Total_Wet_Weight #Weight data in vector for
+  transformed_data=ww_dw(x=df, weight='total') #The command 'weight' helps you to choose in between the total, shell and soft tissue wet weight
+  transformed_data
+
   - In case you have a matrix into which you want to already add the transformed data (using 'oyster' as base:
       oyster$Transformed_Total_Wet_to_Dry_weight=ww_dw(x=df, weight='total')
 
