@@ -35,7 +35,7 @@ I understand that there's a big discussion on the deffinitions of length, width,
   - Width: Longest distance across the valve.
   - Height: Maximum distance between external surfaces of the umbo.
 
-# Usage:
+# Examples:
 
 For 'ww_dw':
 - Load your wet weight data as a vector.
