@@ -4,11 +4,8 @@ Before anything: How to install in R?
 
 If you don't have the devtools package installed, then:
 
-install.packages("devtools")
-
-Once that one's installed (or if you already had it installed), run this line:
-
-devtools::install_github("seapimetz/oedulis")
+-     install.packages("devtools") #In case you don't have devtools installed
+-     devtools::install_github("seapimetz/oedulis")
 
 That's it, well done!
 
