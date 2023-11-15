@@ -4,8 +4,8 @@ Before anything: How to install in R?
 
 If you don't have the devtools package installed, then:
 
--     install.packages("devtools") #In case you don't have devtools installed
--     devtools::install_github("seapimetz/oedulis")
+      install.packages("devtools") #In case you don't have devtools installed
+      devtools::install_github("seapimetz/oedulis")
 
 That's it, well done!
 
@@ -37,7 +37,8 @@ I understand that there's a big discussion on the deffinitions of length, width,
 For 'ww_dw':
 - Load your wet weight data as a vector.
 - E.g.: If you want to transform your total wet weight to dry weight:
--     data(oyster) #Example data set with oyster biometric data
+
+      data(oyster) #Example data set with oyster biometric data
       df=oyster$Total_Wet_Weight #Weight data in vector for
       transformed_data=ww_dw(x=df, weight='total') #The command 'weight' helps you to choose in between the total, shell and soft tissue wet weight
       transformed_data
@@ -48,7 +49,8 @@ For 'ww_dw':
 For 'o_edulis_w':
 - Load your size data as a matrix. Note that the columns containing length, width, and height data need to be named 'Length', 'Width', and 'Height' respectivelly.
 - E.g.: To estimate total wet weight using the model based on length only:
--     load(oyster) #Example data set with oyster biometric data
+
+      load(oyster) #Example data set with oyster biometric data
       estimated_total_wet_weight=o_edulis_w(x=df,model=1,type='total',weight='wet')
       estimated_total_wet_weight
 
