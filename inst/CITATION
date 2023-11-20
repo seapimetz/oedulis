@@ -1,0 +1,7 @@
+bibentry(
+  bibtype = "Misc",
+  title    = "oedulis: Ostrea edulis monitoring tools",
+  author   = "Santiago E. A. Pineda-Metz",
+  year     = 2023,
+  doi      = "https://doi.org/10.6084/m9.figshare.24591585.v2"
+)
