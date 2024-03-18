@@ -23,9 +23,9 @@
 #' @export
 ww_dw=function(x,weight){
   if(weight!='total' & weight!='shell' & weight!='tissue') stop('Non valid argument for weight. Choose between total, shell or tissue')
-  if(weight=='total'){ ww_dw=x*0.662 }
-  if(weight=='shell'){ ww_dw=x*0.718 }
-  if(weight=='tissue'){ ww_dw=x*0.176 }
+  if(weight=='total'){ ww_dw=x*0.598 }
+  if(weight=='shell'){ ww_dw=x*0.802 }
+  if(weight=='tissue'){ ww_dw=x*0.194 }
   return(ww_dw)
 }
 
