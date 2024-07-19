@@ -11,7 +11,7 @@ That's it, well done!
 
 Important for research: Don't forget to cite the package if you use it!
 
-      Pineda-Metz, Santiago E A (2023). oedulis. figshare. Software. https://doi.org/10.6084/m9.figshare.24591585.v2
+      Pineda-Metz, Santiago E A (2023). oedulis. figshare. Software. https://doi.org/10.6084/m9.figshare.24591585.v4
 
 The package was developed to help estimation and transformation of weight data for European flat oyster (Ostrea edulis) restoration and conservation efforts. The base publication used to develop this package was Pineda-Metz et al. (2023; http://dx.doi.org/10.1002/aqc.3912). These authors calculated tranformation factors to calculate total, shell and soft tissue dry weight from wet weights (or vice versa). Additionally, the mentioned publication developed a set of models for estimating total, shell and soft tissue wet weight of O. edulis. The package includes (in its current version) only two functions:
     1) 'ww_dt': Used for transforming O.edulis wet weights to dry weights.
